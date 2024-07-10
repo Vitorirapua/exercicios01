@@ -1,9 +1,7 @@
-numero1 = float(input("Digite o primeiro numero: "))
-numero2 = float(input("Digite o segundo numero: "))
-numero3 = float(input("Digite o terceiro numero: "))
-calculo = (numero1 + numero2 + numero3 / 3)
+#Pede três numeros e tira a média entre eles
+numero1 = float(input("Digite o primeiro número: "))
+numero2 = float(input("Digite o segundo número: "))
+numero3 = float(input("Digite o terceiro número: "))
+calculoMedia = (f"{(numero1 + numero2 + numero3) / 3:.2f}")
  
-if calculo != str:
-    print(calculo)
-else:
-    print("Digite um numero: ")
+print(calculoMedia)
